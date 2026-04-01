@@ -1,4 +1,5 @@
 # 🚚 Supply Chain Operations Analytics Pipeline
+by: Hardik SINGH
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat&logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-2.0+-green?style=flat&logo=pandas)
@@ -150,22 +151,6 @@ Then open `reports/dashboard.html` in your browser.
 
 ---
 
-## 🔗 Related Project
-
-This project works alongside the [Supplier Performance Analytics](https://github.com/pavansri8886/supplier-performance-analytics) repo, which extends the supplier scorecard with 12-month trend analysis, risk flagging, lane heatmaps and cold chain monitoring across 25 real-named European suppliers and 4,054 orders.
-
-Together they form a complete supply chain analytics layer:
-
-| This repo | Supplier Performance Analytics |
-|---|---|
-| End-to-end ops pipeline | Deep supplier trend analysis |
-| Order tracking + inventory | 12-month monthly trends |
-| Root cause classification | Lane heatmap by country |
-| Stockout risk detection | Cold chain risk flagging |
-| Summary JSON for downstream | Management dashboard |
-
----
-
 ## 🔭 What I Would Build Next
 
 The natural next step is connecting the root cause classifier to a real-time alerting layer — when carrier delay exceeds a threshold on a specific lane, trigger an automatic notification to the logistics manager rather than surfacing it in the next weekly report. The stockout risk model would also benefit from incorporating demand forecasting so it flags risk before stock falls below safety level rather than after.
@@ -174,11 +159,8 @@ The natural next step is connecting the root cause classifier to a real-time ale
 
 ## 👤 Author
 
-**Pavan Kumar Naganaboina**
+**Hardik SINGH**
 MSc Data Management & AI — ECE Paris 2025–2026
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-pavankumarn01-blue?style=flat&logo=linkedin)](https://linkedin.com/in/pavankumarn01)
-[![GitHub](https://img.shields.io/badge/GitHub-pavansri8886-black?style=flat&logo=github)](https://github.com/pavansri8886)
 
 ---
 
