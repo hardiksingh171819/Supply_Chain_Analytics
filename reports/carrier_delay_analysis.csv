@@ -1,0 +1,6 @@
+carrier,avg_delay_days,total_delayed_orders
+DHL,2.33,24
+UPS,2.26,31
+FedEx,2.25,24
+DB Schenker,2.11,27
+DSV,1.96,28

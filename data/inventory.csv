@@ -1,0 +1,301 @@
+warehouse,product_category,month,opening_stock,units_received,units_sold,safety_stock_threshold,closing_stock,stockout_risk
+Amsterdam,Kitchen Appliances,1,896,222,382,150,736,False
+Amsterdam,Kitchen Appliances,2,1490,458,247,150,1701,False
+Amsterdam,Kitchen Appliances,3,1583,134,279,150,1438,False
+Amsterdam,Kitchen Appliances,4,1983,115,358,150,1740,False
+Amsterdam,Kitchen Appliances,5,1193,63,241,150,1015,False
+Amsterdam,Kitchen Appliances,6,1312,338,379,150,1271,False
+Amsterdam,Kitchen Appliances,7,155,92,369,150,0,True
+Amsterdam,Kitchen Appliances,8,977,119,276,150,820,False
+Amsterdam,Kitchen Appliances,9,472,75,173,150,374,False
+Amsterdam,Kitchen Appliances,10,876,217,148,150,945,False
+Amsterdam,Kitchen Appliances,11,1031,217,212,150,1036,False
+Amsterdam,Kitchen Appliances,12,1658,500,234,150,1924,False
+Amsterdam,Coffee Machines,1,669,435,255,150,849,False
+Amsterdam,Coffee Machines,2,616,477,81,150,1012,False
+Amsterdam,Coffee Machines,3,1063,59,423,150,699,False
+Amsterdam,Coffee Machines,4,1204,76,219,150,1061,False
+Amsterdam,Coffee Machines,5,559,382,75,150,866,False
+Amsterdam,Coffee Machines,6,1699,383,60,150,2022,False
+Amsterdam,Coffee Machines,7,1644,65,166,150,1543,False
+Amsterdam,Coffee Machines,8,508,479,50,150,937,False
+Amsterdam,Coffee Machines,9,1372,128,162,150,1338,False
+Amsterdam,Coffee Machines,10,358,292,382,150,268,False
+Amsterdam,Coffee Machines,11,334,338,151,150,521,False
+Amsterdam,Coffee Machines,12,1052,408,171,150,1289,False
+Amsterdam,Air Purifiers,1,1670,238,125,150,1783,False
+Amsterdam,Air Purifiers,2,1340,360,422,150,1278,False
+Amsterdam,Air Purifiers,3,1571,108,438,150,1241,False
+Amsterdam,Air Purifiers,4,1777,133,199,150,1711,False
+Amsterdam,Air Purifiers,5,321,346,53,150,614,False
+Amsterdam,Air Purifiers,6,738,344,386,150,696,False
+Amsterdam,Air Purifiers,7,1959,242,243,150,1958,False
+Amsterdam,Air Purifiers,8,1564,151,78,150,1637,False
+Amsterdam,Air Purifiers,9,1312,403,361,150,1354,False
+Amsterdam,Air Purifiers,10,597,102,396,150,303,False
+Amsterdam,Air Purifiers,11,1682,204,390,150,1496,False
+Amsterdam,Air Purifiers,12,1329,462,101,150,1690,False
+Amsterdam,Irons,1,1730,339,440,150,1629,False
+Amsterdam,Irons,2,184,227,312,150,99,True
+Amsterdam,Irons,3,977,388,229,150,1136,False
+Amsterdam,Irons,4,241,309,371,150,179,False
+Amsterdam,Irons,5,798,56,255,150,599,False
+Amsterdam,Irons,6,1784,300,94,150,1990,False
+Amsterdam,Irons,7,987,235,365,150,857,False
+Amsterdam,Irons,8,1925,474,275,150,2124,False
+Amsterdam,Irons,9,1548,128,262,150,1414,False
+Amsterdam,Irons,10,460,425,307,150,578,False
+Amsterdam,Irons,11,1432,188,355,150,1265,False
+Amsterdam,Irons,12,1755,325,436,150,1644,False
+Amsterdam,Blenders,1,1090,288,263,150,1115,False
+Amsterdam,Blenders,2,1791,424,343,150,1872,False
+Amsterdam,Blenders,3,649,215,165,150,699,False
+Amsterdam,Blenders,4,1801,94,182,150,1713,False
+Amsterdam,Blenders,5,1905,280,164,150,2021,False
+Amsterdam,Blenders,6,1636,287,331,150,1592,False
+Amsterdam,Blenders,7,1349,392,234,150,1507,False
+Amsterdam,Blenders,8,788,64,293,150,559,False
+Amsterdam,Blenders,9,1842,216,133,150,1925,False
+Amsterdam,Blenders,10,1098,158,221,150,1035,False
+Amsterdam,Blenders,11,1733,182,214,150,1701,False
+Amsterdam,Blenders,12,672,500,345,150,827,False
+Rotterdam,Kitchen Appliances,1,1536,500,181,150,1855,False
+Rotterdam,Kitchen Appliances,2,1238,55,304,150,989,False
+Rotterdam,Kitchen Appliances,3,491,93,163,150,421,False
+Rotterdam,Kitchen Appliances,4,1574,258,290,150,1542,False
+Rotterdam,Kitchen Appliances,5,1237,438,163,150,1512,False
+Rotterdam,Kitchen Appliances,6,1514,293,370,150,1437,False
+Rotterdam,Kitchen Appliances,7,1557,301,269,150,1589,False
+Rotterdam,Kitchen Appliances,8,1723,58,87,150,1694,False
+Rotterdam,Kitchen Appliances,9,702,163,247,150,618,False
+Rotterdam,Kitchen Appliances,10,1516,174,196,150,1494,False
+Rotterdam,Kitchen Appliances,11,1459,347,228,150,1578,False
+Rotterdam,Kitchen Appliances,12,1069,333,311,150,1091,False
+Rotterdam,Coffee Machines,1,804,267,421,150,650,False
+Rotterdam,Coffee Machines,2,1227,219,220,150,1226,False
+Rotterdam,Coffee Machines,3,1539,282,178,150,1643,False
+Rotterdam,Coffee Machines,4,727,178,158,150,747,False
+Rotterdam,Coffee Machines,5,347,419,138,150,628,False
+Rotterdam,Coffee Machines,6,746,111,420,150,437,False
+Rotterdam,Coffee Machines,7,1197,440,393,150,1244,False
+Rotterdam,Coffee Machines,8,479,148,150,150,477,False
+Rotterdam,Coffee Machines,9,1612,297,181,150,1728,False
+Rotterdam,Coffee Machines,10,1583,351,429,150,1505,False
+Rotterdam,Coffee Machines,11,1174,355,184,150,1345,False
+Rotterdam,Coffee Machines,12,305,476,139,150,642,False
+Rotterdam,Air Purifiers,1,706,166,224,150,648,False
+Rotterdam,Air Purifiers,2,467,204,47,150,624,False
+Rotterdam,Air Purifiers,3,1550,323,104,150,1769,False
+Rotterdam,Air Purifiers,4,661,73,67,150,667,False
+Rotterdam,Air Purifiers,5,1233,199,397,150,1035,False
+Rotterdam,Air Purifiers,6,358,376,425,150,309,False
+Rotterdam,Air Purifiers,7,1105,102,46,150,1161,False
+Rotterdam,Air Purifiers,8,1275,195,280,150,1190,False
+Rotterdam,Air Purifiers,9,1080,275,214,150,1141,False
+Rotterdam,Air Purifiers,10,477,76,169,150,384,False
+Rotterdam,Air Purifiers,11,1864,294,98,150,2060,False
+Rotterdam,Air Purifiers,12,1783,83,245,150,1621,False
+Rotterdam,Irons,1,1107,87,335,150,859,False
+Rotterdam,Irons,2,1389,401,67,150,1723,False
+Rotterdam,Irons,3,410,126,328,150,208,False
+Rotterdam,Irons,4,722,93,167,150,648,False
+Rotterdam,Irons,5,342,335,431,150,246,False
+Rotterdam,Irons,6,952,360,345,150,967,False
+Rotterdam,Irons,7,1719,366,155,150,1930,False
+Rotterdam,Irons,8,1688,317,234,150,1771,False
+Rotterdam,Irons,9,1022,276,192,150,1106,False
+Rotterdam,Irons,10,1861,351,259,150,1953,False
+Rotterdam,Irons,11,725,341,357,150,709,False
+Rotterdam,Irons,12,223,362,418,150,167,False
+Rotterdam,Blenders,1,303,440,146,150,597,False
+Rotterdam,Blenders,2,1381,158,175,150,1364,False
+Rotterdam,Blenders,3,1452,91,120,150,1423,False
+Rotterdam,Blenders,4,591,138,322,150,407,False
+Rotterdam,Blenders,5,253,130,41,150,342,False
+Rotterdam,Blenders,6,936,280,392,150,824,False
+Rotterdam,Blenders,7,1316,290,189,150,1417,False
+Rotterdam,Blenders,8,166,168,187,150,147,True
+Rotterdam,Blenders,9,1547,194,399,150,1342,False
+Rotterdam,Blenders,10,1860,282,76,150,2066,False
+Rotterdam,Blenders,11,1507,169,175,150,1501,False
+Rotterdam,Blenders,12,1713,455,360,150,1808,False
+Brussels,Kitchen Appliances,1,1307,388,141,150,1554,False
+Brussels,Kitchen Appliances,2,970,108,318,150,760,False
+Brussels,Kitchen Appliances,3,560,381,116,150,825,False
+Brussels,Kitchen Appliances,4,1960,186,112,150,2034,False
+Brussels,Kitchen Appliances,5,246,80,124,150,202,False
+Brussels,Kitchen Appliances,6,1723,207,344,150,1586,False
+Brussels,Kitchen Appliances,7,1633,472,331,150,1774,False
+Brussels,Kitchen Appliances,8,1986,197,264,150,1919,False
+Brussels,Kitchen Appliances,9,354,289,392,150,251,False
+Brussels,Kitchen Appliances,10,722,408,246,150,884,False
+Brussels,Kitchen Appliances,11,657,306,316,150,647,False
+Brussels,Kitchen Appliances,12,1111,274,81,150,1304,False
+Brussels,Coffee Machines,1,1324,70,261,150,1133,False
+Brussels,Coffee Machines,2,1604,215,349,150,1470,False
+Brussels,Coffee Machines,3,612,63,86,150,589,False
+Brussels,Coffee Machines,4,568,395,334,150,629,False
+Brussels,Coffee Machines,5,1302,60,431,150,931,False
+Brussels,Coffee Machines,6,1476,470,177,150,1769,False
+Brussels,Coffee Machines,7,1280,70,430,150,920,False
+Brussels,Coffee Machines,8,1648,139,280,150,1507,False
+Brussels,Coffee Machines,9,1162,383,266,150,1279,False
+Brussels,Coffee Machines,10,1976,192,132,150,2036,False
+Brussels,Coffee Machines,11,1298,273,365,150,1206,False
+Brussels,Coffee Machines,12,1767,301,86,150,1982,False
+Brussels,Air Purifiers,1,1062,228,249,150,1041,False
+Brussels,Air Purifiers,2,782,214,383,150,613,False
+Brussels,Air Purifiers,3,314,489,122,150,681,False
+Brussels,Air Purifiers,4,775,260,395,150,640,False
+Brussels,Air Purifiers,5,1114,197,379,150,932,False
+Brussels,Air Purifiers,6,920,466,429,150,957,False
+Brussels,Air Purifiers,7,1226,68,272,150,1022,False
+Brussels,Air Purifiers,8,280,211,169,150,322,False
+Brussels,Air Purifiers,9,762,109,435,150,436,False
+Brussels,Air Purifiers,10,927,492,303,150,1116,False
+Brussels,Air Purifiers,11,1789,50,376,150,1463,False
+Brussels,Air Purifiers,12,1880,327,276,150,1931,False
+Brussels,Irons,1,946,77,136,150,887,False
+Brussels,Irons,2,1161,235,358,150,1038,False
+Brussels,Irons,3,1649,305,360,150,1594,False
+Brussels,Irons,4,1005,439,66,150,1378,False
+Brussels,Irons,5,516,186,321,150,381,False
+Brussels,Irons,6,368,197,264,150,301,False
+Brussels,Irons,7,1903,407,288,150,2022,False
+Brussels,Irons,8,348,64,362,150,50,True
+Brussels,Irons,9,1346,459,162,150,1643,False
+Brussels,Irons,10,1553,131,199,150,1485,False
+Brussels,Irons,11,1228,57,322,150,963,False
+Brussels,Irons,12,935,97,155,150,877,False
+Brussels,Blenders,1,1823,108,276,150,1655,False
+Brussels,Blenders,2,340,381,118,150,603,False
+Brussels,Blenders,3,1120,416,189,150,1347,False
+Brussels,Blenders,4,1142,411,179,150,1374,False
+Brussels,Blenders,5,950,477,287,150,1140,False
+Brussels,Blenders,6,1067,174,273,150,968,False
+Brussels,Blenders,7,1228,124,236,150,1116,False
+Brussels,Blenders,8,490,356,300,150,546,False
+Brussels,Blenders,9,1628,500,109,150,2019,False
+Brussels,Blenders,10,1869,85,181,150,1773,False
+Brussels,Blenders,11,1682,454,252,150,1884,False
+Brussels,Blenders,12,796,453,299,150,950,False
+Paris,Kitchen Appliances,1,647,470,41,150,1076,False
+Paris,Kitchen Appliances,2,679,421,192,150,908,False
+Paris,Kitchen Appliances,3,1815,350,336,150,1829,False
+Paris,Kitchen Appliances,4,1451,300,116,150,1635,False
+Paris,Kitchen Appliances,5,1014,325,287,150,1052,False
+Paris,Kitchen Appliances,6,806,220,322,150,704,False
+Paris,Kitchen Appliances,7,1662,328,233,150,1757,False
+Paris,Kitchen Appliances,8,1032,214,136,150,1110,False
+Paris,Kitchen Appliances,9,1528,172,332,150,1368,False
+Paris,Kitchen Appliances,10,884,169,437,150,616,False
+Paris,Kitchen Appliances,11,941,72,202,150,811,False
+Paris,Kitchen Appliances,12,1625,292,401,150,1516,False
+Paris,Coffee Machines,1,1970,465,235,150,2200,False
+Paris,Coffee Machines,2,890,389,445,150,834,False
+Paris,Coffee Machines,3,1780,383,117,150,2046,False
+Paris,Coffee Machines,4,1114,68,104,150,1078,False
+Paris,Coffee Machines,5,1128,352,209,150,1271,False
+Paris,Coffee Machines,6,1881,101,265,150,1717,False
+Paris,Coffee Machines,7,304,319,273,150,350,False
+Paris,Coffee Machines,8,131,419,113,150,437,False
+Paris,Coffee Machines,9,939,495,375,150,1059,False
+Paris,Coffee Machines,10,416,88,280,150,224,False
+Paris,Coffee Machines,11,1700,185,213,150,1672,False
+Paris,Coffee Machines,12,1376,404,243,150,1537,False
+Paris,Air Purifiers,1,1430,91,208,150,1313,False
+Paris,Air Purifiers,2,1845,395,313,150,1927,False
+Paris,Air Purifiers,3,878,212,360,150,730,False
+Paris,Air Purifiers,4,1571,438,289,150,1720,False
+Paris,Air Purifiers,5,1886,327,58,150,2155,False
+Paris,Air Purifiers,6,1364,85,160,150,1289,False
+Paris,Air Purifiers,7,1392,400,187,150,1605,False
+Paris,Air Purifiers,8,565,432,86,150,911,False
+Paris,Air Purifiers,9,988,100,429,150,659,False
+Paris,Air Purifiers,10,1397,410,91,150,1716,False
+Paris,Air Purifiers,11,1008,135,395,150,748,False
+Paris,Air Purifiers,12,713,64,63,150,714,False
+Paris,Irons,1,764,457,68,150,1153,False
+Paris,Irons,2,700,233,231,150,702,False
+Paris,Irons,3,982,124,165,150,941,False
+Paris,Irons,4,1187,260,329,150,1118,False
+Paris,Irons,5,1496,455,132,150,1819,False
+Paris,Irons,6,448,139,80,150,507,False
+Paris,Irons,7,1348,495,235,150,1608,False
+Paris,Irons,8,1369,399,163,150,1605,False
+Paris,Irons,9,1119,348,113,150,1354,False
+Paris,Irons,10,575,286,366,150,495,False
+Paris,Irons,11,620,285,170,150,735,False
+Paris,Irons,12,1465,54,278,150,1241,False
+Paris,Blenders,1,1945,197,386,150,1756,False
+Paris,Blenders,2,1219,130,77,150,1272,False
+Paris,Blenders,3,1004,226,340,150,890,False
+Paris,Blenders,4,712,377,257,150,832,False
+Paris,Blenders,5,1513,178,273,150,1418,False
+Paris,Blenders,6,1831,204,141,150,1894,False
+Paris,Blenders,7,887,486,287,150,1086,False
+Paris,Blenders,8,318,171,235,150,254,False
+Paris,Blenders,9,1271,233,334,150,1170,False
+Paris,Blenders,10,705,408,191,150,922,False
+Paris,Blenders,11,144,474,377,150,241,False
+Paris,Blenders,12,910,190,44,150,1056,False
+Frankfurt,Kitchen Appliances,1,1259,492,391,150,1360,False
+Frankfurt,Kitchen Appliances,2,1693,431,65,150,2059,False
+Frankfurt,Kitchen Appliances,3,1964,360,421,150,1903,False
+Frankfurt,Kitchen Appliances,4,1117,476,186,150,1407,False
+Frankfurt,Kitchen Appliances,5,1688,459,157,150,1990,False
+Frankfurt,Kitchen Appliances,6,1343,460,220,150,1583,False
+Frankfurt,Kitchen Appliances,7,548,375,137,150,786,False
+Frankfurt,Kitchen Appliances,8,1371,178,387,150,1162,False
+Frankfurt,Kitchen Appliances,9,1647,419,432,150,1634,False
+Frankfurt,Kitchen Appliances,10,1450,398,110,150,1738,False
+Frankfurt,Kitchen Appliances,11,1386,99,361,150,1124,False
+Frankfurt,Kitchen Appliances,12,1423,70,198,150,1295,False
+Frankfurt,Coffee Machines,1,1715,275,57,150,1933,False
+Frankfurt,Coffee Machines,2,1286,236,414,150,1108,False
+Frankfurt,Coffee Machines,3,369,96,191,150,274,False
+Frankfurt,Coffee Machines,4,769,432,252,150,949,False
+Frankfurt,Coffee Machines,5,459,152,107,150,504,False
+Frankfurt,Coffee Machines,6,1710,326,227,150,1809,False
+Frankfurt,Coffee Machines,7,1187,306,179,150,1314,False
+Frankfurt,Coffee Machines,8,1800,134,171,150,1763,False
+Frankfurt,Coffee Machines,9,1971,472,286,150,2157,False
+Frankfurt,Coffee Machines,10,1751,201,422,150,1530,False
+Frankfurt,Coffee Machines,11,1882,223,98,150,2007,False
+Frankfurt,Coffee Machines,12,1059,88,112,150,1035,False
+Frankfurt,Air Purifiers,1,1644,165,386,150,1423,False
+Frankfurt,Air Purifiers,2,1583,395,243,150,1735,False
+Frankfurt,Air Purifiers,3,1832,461,325,150,1968,False
+Frankfurt,Air Purifiers,4,849,96,444,150,501,False
+Frankfurt,Air Purifiers,5,908,57,175,150,790,False
+Frankfurt,Air Purifiers,6,1198,113,272,150,1039,False
+Frankfurt,Air Purifiers,7,854,394,423,150,825,False
+Frankfurt,Air Purifiers,8,1476,184,339,150,1321,False
+Frankfurt,Air Purifiers,9,880,471,366,150,985,False
+Frankfurt,Air Purifiers,10,860,105,385,150,580,False
+Frankfurt,Air Purifiers,11,578,291,52,150,817,False
+Frankfurt,Air Purifiers,12,1368,337,207,150,1498,False
+Frankfurt,Irons,1,1974,362,153,150,2183,False
+Frankfurt,Irons,2,1426,82,365,150,1143,False
+Frankfurt,Irons,3,1787,287,398,150,1676,False
+Frankfurt,Irons,4,718,382,249,150,851,False
+Frankfurt,Irons,5,338,121,63,150,396,False
+Frankfurt,Irons,6,176,205,292,150,89,True
+Frankfurt,Irons,7,337,99,160,150,276,False
+Frankfurt,Irons,8,1917,325,109,150,2133,False
+Frankfurt,Irons,9,895,282,229,150,948,False
+Frankfurt,Irons,10,1473,430,396,150,1507,False
+Frankfurt,Irons,11,1206,264,340,150,1130,False
+Frankfurt,Irons,12,1620,422,119,150,1923,False
+Frankfurt,Blenders,1,1913,262,375,150,1800,False
+Frankfurt,Blenders,2,302,476,290,150,488,False
+Frankfurt,Blenders,3,1360,258,183,150,1435,False
+Frankfurt,Blenders,4,167,403,229,150,341,False
+Frankfurt,Blenders,5,544,277,267,150,554,False
+Frankfurt,Blenders,6,583,487,225,150,845,False
+Frankfurt,Blenders,7,303,401,228,150,476,False
+Frankfurt,Blenders,8,1215,380,223,150,1372,False
+Frankfurt,Blenders,9,224,253,181,150,296,False
+Frankfurt,Blenders,10,488,112,272,150,328,False
+Frankfurt,Blenders,11,287,389,148,150,528,False
+Frankfurt,Blenders,12,1414,377,345,150,1446,False

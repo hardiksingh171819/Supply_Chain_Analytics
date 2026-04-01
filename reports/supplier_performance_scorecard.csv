@@ -1,0 +1,6 @@
+supplier,total_orders,on_time_pct,avg_delay_days,total_spend,risk_rating
+SupplierA,96,79.2,0.54,"€3,164,922",AT RISK
+SupplierB,105,67.6,0.75,"€3,531,013",CRITICAL
+SupplierC,96,67.7,0.68,"€2,642,547",CRITICAL
+SupplierD,99,77.8,0.41,"€3,280,590",AT RISK
+SupplierE,104,74.0,0.53,"€3,619,402",AT RISK

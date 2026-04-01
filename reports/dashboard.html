@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Supply Chain Operations Dashboard</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f0f2f5; color: #222; }
+  header { background: #1a1a2e; color: white; padding: 28px 40px; }
+  header h1 { font-size: 24px; font-weight: 700; }
+  header p { font-size: 13px; color: #aaa; margin-top: 4px; }
+  .kpi-row { display: flex; gap: 20px; padding: 28px 40px 0; flex-wrap: wrap; }
+  .kpi { background: white; border-radius: 10px; padding: 20px 28px; flex: 1; min-width: 160px;
+           box-shadow: 0 2px 8px rgba(0,0,0,0.07); border-top: 4px solid #5b4395; }
+  .kpi .val { font-size: 32px; font-weight: 700; color: #1a1a2e; }
+  .kpi .lbl { font-size: 12px; color: #777; margin-top: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .section { background: white; border-radius: 10px; margin: 24px 40px 0;
+              padding: 24px 28px; box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+  .section h2 { font-size: 15px; font-weight: 700; color: #1a1a2e; margin-bottom: 16px;
+                 padding-left: 10px; border-left: 4px solid #5b4395; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: #f8f8fc; text-align: left; padding: 10px 12px; color: #555;
+        font-weight: 600; border-bottom: 2px solid #eee; }
+  td { padding: 10px 12px; border-bottom: 1px solid #f0f0f0; }
+  tr:hover td { background: #fafafa; }
+  .chart-wrap { position: relative; height: 220px; }
+  canvas { width: 100% !important; }
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 24px 40px 0; }
+  .two-col .section { margin: 0; }
+  footer { text-align: center; padding: 32px; color: #aaa; font-size: 12px; }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+</head>
+<body>
+
+<header>
+  <h1>Supply Chain Operations Analytics Dashboard</h1>
+  <p>Operations Data & Analytics Program &nbsp;|&nbsp; Versuni Supply Chain Excellence</p>
+</header>
+
+<div class="kpi-row">
+  <div class="kpi"><div class="val">500</div><div class="lbl">Total Orders</div></div>
+  <div class="kpi"><div class="val">73.2%</div><div class="lbl">On-Time Delivery</div></div>
+  <div class="kpi"><div class="val">2</div><div class="lbl">Critical Suppliers</div></div>
+  <div class="kpi"><div class="val">5</div><div class="lbl">Stockout Risk Cases</div></div>
+  <div class="kpi"><div class="val">€16,238,473</div><div class="lbl">Total Spend</div></div>
+</div>
+
+<div class="section">
+  <h2>Monthly Shipment Volume & On-Time Delivery Trend</h2>
+  <div class="chart-wrap">
+    <canvas id="monthlyChart"></canvas>
+  </div>
+</div>
+
+<div class="two-col">
+  <div class="section">
+    <h2>Supplier On-Time Delivery Scorecard</h2>
+    <table><thead><tr><th>Supplier</th><th>On Time Delivery Pct</th><th>Status</th></tr></thead><tbody><tr><td>SupplierB</td><td>67.62</td><td><span style="background:#e74c3c;color:white;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:bold">CRITICAL</span></td></tr><tr><td>SupplierC</td><td>67.71</td><td><span style="background:#e74c3c;color:white;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:bold">CRITICAL</span></td></tr><tr><td>SupplierE</td><td>74.04</td><td><span style="background:#f39c12;color:white;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:bold">AT RISK</span></td></tr><tr><td>SupplierD</td><td>77.78</td><td><span style="background:#f39c12;color:white;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:bold">AT RISK</span></td></tr><tr><td>SupplierA</td><td>79.17</td><td><span style="background:#f39c12;color:white;padding:3px 10px;border-radius:12px;font-size:12px;font-weight:bold">AT RISK</span></td></tr></tbody></table>
+  </div>
+  <div class="section">
+    <h2>Delay Root Cause Analysis</h2>
+    <table><thead><tr><th>Delay Reason</th><th>Count</th><th>Pct</th></tr></thead><tbody><tr><td>Bad weather</td><td>21</td><td>36.8</td></tr><tr><td>Warehouse capacity</td><td>12</td><td>21.1</td></tr><tr><td>Customs clearance</td><td>12</td><td>21.1</td></tr><tr><td>Carrier delay</td><td>12</td><td>21.1</td></tr></tbody></table>
+  </div>
+</div>
+
+<div class="two-col">
+  <div class="section">
+    <h2>Carrier Delay Performance</h2>
+    <table><thead><tr><th>Carrier</th><th>Avg Delay Days</th><th>Total Delayed Orders</th></tr></thead><tbody><tr><td>DHL</td><td>2.33</td><td>24</td></tr><tr><td>UPS</td><td>2.26</td><td>31</td></tr><tr><td>FedEx</td><td>2.25</td><td>24</td></tr><tr><td>DB Schenker</td><td>2.11</td><td>27</td></tr><tr><td>DSV</td><td>1.96</td><td>28</td></tr></tbody></table>
+  </div>
+  <div class="section">
+    <h2>Warehouse Inbound Volume</h2>
+    <table><thead><tr><th>Warehouse</th><th>Total Orders</th><th>Total Units</th><th>On Time Pct</th></tr></thead><tbody><tr><td>Frankfurt</td><td>110</td><td>29104</td><td>69.1</td></tr><tr><td>Paris</td><td>109</td><td>25881</td><td>72.5</td></tr><tr><td>Rotterdam</td><td>107</td><td>28043</td><td>80.4</td></tr><tr><td>Amsterdam</td><td>97</td><td>22182</td><td>70.1</td></tr><tr><td>Brussels</td><td>77</td><td>17472</td><td>74.0</td></tr></tbody></table>
+  </div>
+</div>
+
+<footer>Supply Chain Operations Analytics Pipeline &nbsp;|&nbsp; Built with Python &middot; pandas &middot; SQL Analytics &middot; Chart.js</footer>
+
+<script>
+const ctx = document.getElementById('monthlyChart').getContext('2d');
+new Chart(ctx, {
+  type: 'bar',
+  data: {
+    labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12'],
+    datasets: [
+      {
+        label: 'Shipments',
+        data: [42, 54, 40, 44, 53, 34, 37, 38, 30, 51, 37, 40],
+        backgroundColor: 'rgba(91,67,149,0.75)',
+        borderRadius: 6,
+        yAxisID: 'y'
+      },
+      {
+        label: 'On-Time %',
+        data: [64.3, 79.6, 72.5, 70.5, 73.6, 79.4, 78.4, 65.8, 66.7, 72.5, 81.1, 72.5],
+        type: 'line',
+        borderColor: '#27ae60',
+        backgroundColor: 'rgba(39,174,96,0.1)',
+        tension: 0.4,
+        fill: true,
+        yAxisID: 'y1'
+      }
+    ]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false,
+    plugins: { legend: { position: 'top' } },
+    scales: {
+      y: { title: { display: true, text: 'Shipments' }, beginAtZero: true },
+      y1: { position: 'right', title: { display: true, text: 'OTD %' }, min: 60, max: 100,
+              grid: { drawOnChartArea: false } }
+    }
+  }
+});
+</script>
+</body>
+</html>

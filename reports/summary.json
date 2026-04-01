@@ -1,0 +1,11 @@
+{
+  "total_orders": 500,
+  "overall_otd_pct": 73.2,
+  "critical_suppliers": [
+    "SupplierB",
+    "SupplierC"
+  ],
+  "top_delay_reason": "Bad weather",
+  "stockout_risk_count": 5,
+  "total_spend": "\u20ac16,238,473"
+}
